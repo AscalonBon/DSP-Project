@@ -1,4 +1,5 @@
 import dermacareLogo from '../assets/logo.png'
+import '../index.css'
 
 function SiteLayout({ children }) {
   return (
@@ -19,7 +20,7 @@ function SiteLayout({ children }) {
           </nav>
 
           <div className="flex items-center gap-2">
-            <a href="/login" className="px-5 py-2 text-sm font-bold rounded-full border-2 text-white transition hover:text-[#3cf8ff]">
+            <a href="/login" className="px-5 py-2 text-sm font-bold rounded-full border-2 text-white transition hover:text-[#77a8ff]">
               Login
             </a>
             <a href="/register" className="rounded-full bg-[#77a8ff] px-5 py-3 text-sm font-bold text-[#10233f] transition hover:bg-white hover:text-[#77a8ff]">

@@ -35,23 +35,15 @@ function HomePage() {
               <span className="h-px w-12 bg-[#77a8ff]" />
               AI-powered dermatology insights
             </p>
-            <h1 className="max-w-150 text-6xl leading-[0.94] font-bold tracking-tight text-white sm:text-7xl lg:text-[5.8rem]">
-              Understand your skin.
-              <span className="block text-[#77a8ff]">Know your next step.</span>
+            <h1 className="max-w-200 m-2 text-6xl leading-[0.94] font-bold tracking-tight text-white sm:text-7xl lg:text-[4.8rem]">
+              GRASP THE SKIN
+              <span className="block text-[#77a8ff] my-4">Get the next step</span>
             </h1>
             <p className="mt-7 max-w-140 text-lg leading-8 text-[#dce6f4]">
               DermaCare uses AI to help you gain insight into dermatological
               conditions. It can support an initial assessment, but it is not a
               diagnosis or a substitute for professional medical help.
             </p>
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <a href="/how" className="rounded-full bg-[#77a8ff] px-7 py-4 text-sm font-bold text-[#10233f] transition hover:bg-white">
-                How it works
-              </a>
-              <a href="/safety" className="rounded-full border border-white/50 px-7 py-4 text-sm font-bold text-white transition hover:border-white hover:bg-white/10">
-                Important safety information
-              </a>
-            </div>
           </div>
         </div>
 
